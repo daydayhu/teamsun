@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>ico_jt_s</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="14" height="14"></rect>
+        <path d="M12,4.51314552 C12,4.62581676 11.9582965,4.73966165 11.8748895,4.83472801 L7.43216459,9.80869363 C7.32399617,9.92958048 7.16109191,10 6.98776178,10 C6.81573488,10 6.65152739,9.92958048 6.54466219,9.80869363 L2.12539547,4.85585387 C1.92860713,4.63520603 1.96770415,4.31244988 2.21271215,4.13522742 C2.45772016,3.95800495 2.81610953,3.99321471 3.01289787,4.21386255 L6.98906501,8.66907102 L10.9873871,4.19156304 C11.1841755,3.9709152 11.5425648,3.93570544 11.7875728,4.1129279 C11.9270189,4.21503621 12,4.36291721 12,4.51314552 Z" id="path-3"></path>
+    </defs>
+    <g id="功能界面设计" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-1-2执行管理-作业管理-作业步骤" transform="translate(-117.000000, -249.000000)">
+            <g id="编组-2" transform="translate(112.000000, 237.000000)">
+                <g id="ico_jt_s" transform="translate(12.000000, 19.000000) scale(1, -1) translate(-12.000000, -19.000000) translate(5.000000, 12.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Rectangle" opacity="0"></g>
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Mask" fill="#19223B" fill-rule="nonzero" opacity="0.449999988" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

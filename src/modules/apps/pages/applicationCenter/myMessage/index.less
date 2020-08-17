@@ -1,0 +1,20 @@
+.myMessage {
+  .myicon {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+
+  .ts-middle-part {
+    @ts-middle-part();
+    max-height: fit-content;
+  }
+
+  .ts-body-part {
+    @ts-body-part();
+
+    .ts-page-block {
+      @ts-pagination-reset-base();
+    }
+
+  }
+}

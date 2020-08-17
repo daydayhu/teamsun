@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>ico_yj_h</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="14" height="14"></rect>
+    </defs>
+    <g id="城商行" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图-运营中心" transform="translate(-279.000000, -1719.000000)">
+            <g id="ico_yj_h" transform="translate(279.000000, 1719.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="矩形" opacity="0" fill-rule="nonzero"></g>
+                <path d="M12.3032,2.80112 L1.69624,2.80112 C1.0696,2.80112 0.56,3.27208 0.56,3.85112 L0.56,10.15112 C0.56,10.73016 1.0696,11.20112 1.69624,11.20112 L12.3032,11.20112 C12.92928,11.20112 13.43944,10.73016 13.43944,10.15112 L13.43944,3.85112 C13.43944,3.27208 12.92872,2.80112 12.3032,2.80112 L12.3032,2.80112 Z M1.31768,10.15112 L1.31768,3.98552 L4.66368,7.07672 L4.66032,7.07672 L1.31768,10.16568 C1.31768,10.16064 1.31768,10.1556 1.31768,10.15112 L1.31768,10.15112 Z M1.8648,3.50112 L12.13408,3.50112 L7,8.24544 L1.8648,3.50112 L1.8648,3.50112 Z M5.1968,7.57008 L6.99944,9.23608 L8.81048,7.56224 L11.99184,10.50168 L2.02496,10.50168 L5.1968,7.57008 L5.1968,7.57008 Z M9.3576,7.07672 L9.33576,7.07672 L12.68176,3.98552 L12.68176,10.14832 L9.3576,7.07672 L9.3576,7.07672 Z" id="形状" fill="#101634" fill-rule="nonzero" opacity="0.25" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

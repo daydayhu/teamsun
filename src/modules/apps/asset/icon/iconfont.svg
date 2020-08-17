@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="stopcircle" unicode="&#59406;" d="M512-128A512 512 0 1 0 512 896a512 512 0 0 0 0-1024z m3.008 92.992a416 416 0 1 1 0 832 416 416 0 0 1 0-832zM320 576h384v-384H320V576z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="playcircle" unicode="&#59407;" d="M512-128A512 512 0 1 0 512 896a512 512 0 0 0 0-1024z m3.008 92.992a416 416 0 1 1 0 832 416 416 0 0 1 0-832zM383.232 608.384l384-224.896-384-223.104v448z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

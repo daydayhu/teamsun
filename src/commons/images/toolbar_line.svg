@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>直线</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="16"></rect>
+    </defs>
+    <g id="城商行" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-452.000000, -1620.000000)">
+            <g id="直线" transform="translate(452.000000, 1620.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="矩形" opacity="0" fill-rule="nonzero"></g>
+                <polygon fill="#000000" fill-rule="nonzero" mask="url(#mask-2)" points="2.36139022 1 2.51627174 1.18141987 9.84366974 9.76400257 12.0123538 7.89870782 14 15 7.314281 11.9417793 9.48192569 10.0755857 2.15488152 1.49242537 2 1.3110055"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

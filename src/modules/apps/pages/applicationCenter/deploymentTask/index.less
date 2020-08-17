@@ -1,0 +1,153 @@
+.deploymentTask {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  .ts-middle-part {
+    @ts-middle-part();
+     /deep/ .searchBox {
+      .theplaceholder{
+        width: calc(100% - 600px) !important;
+      }
+     }
+  }
+  .ts-body-part {
+    @ts-body-part();
+    .ts-page-block {
+      @ts-pagination-reset-base();
+    }
+    .el-table {
+      // TODO: 下面样式自定义
+      .item-cell {
+        @flex();
+        .icon-c {
+          width: 16px;
+          height: 16px;
+          margin-right: 8px;
+          & > img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .el-button {
+          flex: 1;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          text-align: left;         
+        }
+
+      }
+          // 滚动条的宽度
+    /deep/ .el-table__body-wrapper::-webkit-scrollbar {
+      width: 6px; // 横向滚动条
+      height: 6px; // 纵向滚动条 必写
+    }
+    // 滚动条的滑块
+    /deep/ .el-table__body-wrapper::-webkit-scrollbar-thumb {
+      background-color: #ddd;
+      border-radius: 3px;
+    }
+
+      /deep/ .el-dropdown-link {
+        cursor: pointer;
+        color: #409EFF;
+      }
+      /deep/ .el-icon-arrow-down {
+        font-size: 12px;
+      }
+      /deep/ .el-dropdown{
+        font-size: 12px;
+      }
+      /deep/ .el-button--small{
+        padding: 0;
+      }
+      /deep/ .el-button{
+        padding: 0;
+      }
+    }
+
+    .btn-c {
+        font-size: 0;
+        .el-button+.el-button {
+          margin-left: 0px !important; 
+        }
+      }
+    }
+
+  .icon-style{
+    margin-right: 5px;
+    font-size: 16px;
+  }
+  .form {
+    display: flex;
+    //justify-content: center;
+    padding: 0px 30px;
+
+  }
+
+  /deep/.el-icon-success {
+    color: #67C23A;
+  }
+
+  /deep/.el-icon-circle-plus {
+    color: #409EFF;
+  }
+
+  /deep/.el-icon-error {
+    color: #F56C6C;
+  }
+
+  /deep/.el-icon-remove {
+    color: #E6A23C;
+  }
+  .circle-style {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+  }
+  
+  .status-success {
+    background: #13ce66;
+  }
+  
+  .to-be-deployed {
+    background-color: #AAAAAA;
+  }
+  .to-be-reviewed {
+    background-color: #1890ff;
+  }
+  .status-error{
+    background: #FF4C4C;
+  }
+  .empty_img{
+    margin-top: -100px;
+  }
+
+  .crontab-c {
+    position: relative;
+    @flex();
+    .svg-icon {
+        margin-left: 5px;
+        cursor: pointer;
+    }
+    .svg-icon:hover + .explain-c {
+        opacity: 1;
+    }
+    .explain-c {
+        position: absolute;
+        transition: all 300ms;
+        opacity: 0;
+        top: -5px;
+        right: -200px;
+        width: 200px;
+        padding: 5px;
+        border-radius: 5px;
+        line-height: 1.5;
+        z-index: 10;
+        background-color: #fff;
+        box-shadow: 0 3px 15px 0 rgba(51,42,125,0.1);
+    }
+  }
+
+}

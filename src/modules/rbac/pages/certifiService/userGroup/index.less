@@ -1,0 +1,20 @@
+.user-groups {
+  .ts-middle-part {
+    @ts-middle-part();
+  }
+  .ts-body-part {
+    @ts-body-part();
+    .custom-overflow {
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      text-align: left;
+      color: #306bff;
+      cursor: pointer;
+    }
+    .ts-page-block {
+      @ts-pagination-reset-base();
+    }
+  }
+}

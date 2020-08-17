@@ -1,0 +1,216 @@
+// /* ************************页面公共样式************************ */
+// //普通框
+// .base_wrap {
+//   padding: 24px 32px;
+//   background: rgba(255, 255, 255, 1);
+//   box-shadow: 0 4px 12px 0 rgba(52, 69, 99, 0.04);
+//   border-radius: 4px;
+//   overflow: hidden;
+
+//   .table-container {
+//     margin-top: 16px;
+//   }
+// }
+
+// //带卡片框和表头的表单
+// .base_card {
+//   min-height: 600px;
+//   background-color: #ffffff;
+//   position: relative;
+// }
+// .base_card_title {
+//   height: 54px;
+//   line-height: 54px;
+//   padding-left: 31px;
+//   padding-right: 31px;
+//   border-bottom: 1px solid #ebeef5;
+//   display: flex;
+//   justify-content: space-between;
+// }
+
+// .base_card_content {
+//   padding-bottom: 80px;
+
+// }
+
+// .base_card_footer {
+//   height: 50px;
+//   width: 100%;
+//   // border-top: 1px solid #EBEEF5;
+//   display: flex;
+//   justify-content: flex-end;
+//   align-items: center;
+//   padding-right: 32px;
+//   position: absolute;
+//   bottom: 0px;
+//   border-top: 1px solid #dcdfe6;
+//   z-index: 10px;
+// }
+// //表单基本框样式-（带下一步/确定等按钮）
+// .baseForm_card {
+//   height: 100%;
+//   padding-bottom: 60px;
+
+//   /deep/.el-card {
+//     height: 100%;
+
+//     .el-card__body {
+//       height: 100%;
+//       padding: 0px;
+//     }
+//   }
+// }
+
+// //表单整体外框
+// .baseForm_wrap {
+//   position: relative;
+//   height: 100%;
+//   padding-bottom: 120px;
+//   overflow: auto;
+
+//   //表单内容项
+//   .baseForm_content {
+//     padding: 20px 20px 0px 20px;
+//     height: 100%;
+
+//     //margin-bottom: 60px;
+//     /deep/.el-input {
+//       width: auto;
+//     }
+//   }
+
+//   //表单底部操作按钮项
+//   .baseForm_footer {
+//     width: 100%;
+//     padding: 10px;
+//     border-top: 1px solid #ebeef5;
+//     background-color: #fff;
+//     display: flex;
+//     justify-content: flex-end;
+//     position: absolute;
+//     bottom: 52px;
+//   }
+// }
+
+// // 基本页面头部标题导航样式--！！！！！！！即将弃用！！！！！！！
+// //已更新到新的头部公共组件@/components/pageHeader.vue中(参考事例：应用中心-应用系统)
+// .base_header {
+//   font-size: 16px;
+//   margin-bottom: 16px;
+//   display: -webkit-box;
+//   display: -ms-flexbox;
+//   display: flex;
+//   -webkit-box-orient: horizontal;
+//   -webkit-box-direction: normal;
+//   -ms-flex-direction: row;
+//   flex-direction: row;
+//   -webkit-box-pack: justify;
+//   -ms-flex-pack: justify;
+//   justify-content: space-between;
+
+//   //有返回按钮时的左部样式
+//   .header_left {
+//     display: flex;
+//     align-items: center;
+
+//     //左部icon，或用element的icon
+//     .icon {
+//       font-size: 25px;
+//       color: #409eff;
+//       cursor: pointer;
+//       padding-right: 10px;
+//     }
+//   }
+// }
+
+// //基本详情页面头部公共组件的v-slot:content中的样式----已更新到新的详情页头部公共组件@/components/detailTitle.vue中
+// //(参考事例：应用中心-应用系统详情)
+// .detail_title_item {
+//   margin-bottom: 10px;
+// }
+
+// .detail_title_label {
+//   color: #666;
+// }
+
+// //基本详情页面头部title样式 -//！！！！！！！即将弃用！！！！！！！
+// //--已更新到新的详情页头部公共组件@/components/detailTitle.vue中-(参考事例：应用中心-应用系统详情)
+// .desc_title {
+//   //头像
+//   .desc_title_avatar {
+//     margin: 22px;
+//   }
+
+//   //标题
+//   .desc_title_head {
+//     width: 100%;
+//     display: flex;
+//     justify-content: space-between;
+//     margin-top: 26px;
+//   }
+
+//   //内容条目
+//   .desc_title_content {
+//     display: flex;
+//     justify-content: space-between;
+
+//     //内容条目的key样式
+//     .desc_title_label {
+//       display: inline-block;
+//       width: 100px;
+//       color: #666;
+//       margin-top: 6px;
+//     }
+//   }
+// }
+
+// //基本详情页面内容样式--!!统一用el-card最好!!
+// .desc_content {
+//   margin-top: 16px;
+//   padding: 15px;
+//   background: #ffffff;
+// }
+
+// //***********定制drawer样式（参考页面：应用中心-应用系统-添加应用系统第二步添加/编辑成员drawer）*****
+// //drawer内容框
+// // .drawer_content {
+// //   display: flex;
+// //   flex-direction: column;
+// //   height: 100%;
+
+// //   //嵌套form表单时
+// //   form {
+// //     flex: 1;
+// //   }
+
+// //   //嵌套表单时表单样式
+// //   .drawer_form {
+// //     padding: 20px;
+// //     height: 100%;
+// //   }
+
+// //   //底部按钮样式
+// //   .drawer_footer {
+// //     display: flex;
+// //     padding: 20px;
+// //     background-color: #eeee;
+// //     button {
+// //       flex: 1;
+// //     }
+// //   }
+// // }
+// .el-dropdown {
+//   color: #306bff;
+//   font-size: 12px;
+// }
+
+// // .el-breadcrumb__inner.is-link {
+// //   color: #c0c4cc;
+// // }
+// .el-table th,
+// .el-table tr {
+//   height: 64px;
+// }
+// // .el-breadcrumb__item:last-child .el-breadcrumb__inner {
+// //   color: #303133;
+// // }

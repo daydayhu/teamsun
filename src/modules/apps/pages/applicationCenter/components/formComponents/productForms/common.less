@@ -1,0 +1,41 @@
+
+.hasTitleWidth{
+    width:550px;
+}
+.noTitleWidth{
+    width:400px;
+}
+.theContent{
+    height:60px;
+    overflow-y: auto;
+    .thetit{
+        float:left;
+        width:150px;
+        text-align: right;
+        margin-right:15px;
+        position:relative;
+        padding-left:10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .thetit span{
+          color: #f56c6c;
+          position: absolute;
+          left:0px;
+    }
+    .inbox{
+        float:left;
+        width:360px;
+        position: relative;
+        text-align: left;
+        .theError{
+            position: absolute;
+            color:red;
+            left:0px;
+            bottom: -4px;
+            height: 14px;
+            line-height: 14px;
+        }
+    }
+}

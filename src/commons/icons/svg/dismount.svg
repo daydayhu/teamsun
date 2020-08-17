@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="51px" viewBox="0 0 50 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>已下架</title>
+    <desc>Created with Sketch.</desc>
+    <g id="城商行" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="8-0-0应用中心-模板管理" transform="translate(-991.000000, -194.000000)">
+            <g id="oracle11g备份-2" transform="translate(801.000000, 181.000000)">
+                <g id="已下架" transform="translate(189.759145, 0.112698)">
+                    <polygon id="矩形" fill="#AFB6C1" fill-rule="nonzero" transform="translate(31.353553, 32.000000) rotate(-225.000000) translate(-31.353553, -32.000000) " points="40.3535534 -3 40.3535534 67 22.3535534 49.3712503 22.3535534 14.8505061"></polygon>
+                    <text transform="translate(31.000000, 32.353553) rotate(45.000000) translate(-31.000000, -32.353553) " font-family="PingFangSC-Regular, PingFang SC" font-size="10" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="16" y="36.3535534">已下架</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

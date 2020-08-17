@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>编组</title>
+    <desc>Created with Sketch.</desc>
+    <g id="城商行" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-1653.000000, -1110.000000)">
+            <g id="编组" transform="translate(1653.000000, 1110.000000)">
+                <path d="M64,32 C64,49.673 49.673,64 32,64 C14.327,64 0,49.673 0,32 C0,14.327 14.327,0 32,0 C49.673,0 64,14.327 64,32" id="Fill-1" fill="#F4F7FF"></path>
+                <g id="编组-10" transform="translate(8.500000, 8.500000)">
+                    <path d="M9,2 C9,3.104 8.104,4 7,4 C5.896,4 5,3.104 5,2 C5,0.896 5.896,0 7,0 C8.104,0 9,0.896 9,2 Z" id="Stroke-3" stroke="#306BFF"></path>
+                    <line x1="38.667" y1="3.667" x2="42.667" y2="3.667" id="Stroke-5" stroke="#306BFF" stroke-linecap="round"></line>
+                    <line x1="40.667" y1="1.667" x2="40.667" y2="5.667" id="Stroke-7" stroke="#306BFF" stroke-linecap="round"></line>
+                    <path d="M50.5,31.5 C50.5,32.604 49.604,33.5 48.5,33.5 C47.396,33.5 46.5,32.604 46.5,31.5 C46.5,30.396 47.396,29.5 48.5,29.5 C49.604,29.5 50.5,30.396 50.5,31.5" id="Fill-9" fill="#306BFF"></path>
+                    <path d="M41.5,41.5 C41.5,42.053 41.053,42.5 40.5,42.5 C39.947,42.5 39.5,42.053 39.5,41.5 C39.5,40.947 39.947,40.5 40.5,40.5 C41.053,40.5 41.5,40.947 41.5,41.5" id="Fill-11" fill="#306BFF"></path>
+                    <line x1="3.5" y1="44" x2="3.5" y2="41.5" id="Stroke-13" stroke="#306BFF" stroke-linecap="round"></line>
+                    <line x1="5.9702" y1="42.9697" x2="4.2102" y2="41.2097" id="Stroke-15" stroke="#306BFF" stroke-linecap="round"></line>
+                    <line x1="7" y1="40.5" x2="4.5" y2="40.5" id="Stroke-17" stroke="#306BFF" stroke-linecap="round"></line>
+                    <line x1="5.9702" y1="38.0303" x2="4.2102" y2="39.7903" id="Stroke-19" stroke="#306BFF" stroke-linecap="round"></line>
+                    <line x1="3.5" y1="39.5" x2="3.5" y2="37" id="Stroke-21" stroke="#306BFF" stroke-linecap="round"></line>
+                    <line x1="2.79" y1="39.79" x2="1.03" y2="38.03" id="Stroke-23" stroke="#306BFF" stroke-linecap="round"></line>
+                    <line x1="2.5" y1="40.5" x2="0" y2="40.5" id="Stroke-25" stroke="#306BFF" stroke-linecap="round"></line>
+                    <line x1="2.79" y1="41.21" x2="1.03" y2="42.97" id="Stroke-27" stroke="#306BFF" stroke-linecap="round"></line>
+                    <path d="M35.1475,8.25 L13.8535,8.25 C11.8802584,8.25 10.2505,9.7792742 10.2505,11.708 L10.2505,37.781 C10.2505,40.7949506 13.9462108,42.3296003 16.2478117,40.3659328 L23.7287677,33.9839704 C24.1588048,33.6167372 24.8417161,33.6167372 25.2722807,33.9840117 L32.7532323,40.3659704 C35.0547676,42.3295819 38.7515,40.7949905 38.7515,37.781 L38.7515,11.708 C38.7515,9.77927802 37.1207805,8.25 35.1475,8.25 Z M13.8535,10.75 L35.1475,10.75 C35.7746826,10.75 36.2515,11.1971562 36.2515,11.708 L36.2515,37.781 C36.2515,38.601341 35.097971,39.0801951 34.3758117,38.4640672 L26.8947677,32.0820296 C25.5292839,30.9172628 23.4701952,30.9172628 22.1057576,32.0824348 L14.6252323,38.4640296 C13.9031283,39.0801103 12.7505,38.6014796 12.7505,37.781 L12.7505,11.708 C12.7505,11.1968021 13.2266602,10.75 13.8535,10.75 Z" id="Stroke-29" fill="#306BFF" fill-rule="nonzero"></path>
+                    <line x1="17.5" y1="17.5" x2="31.5" y2="17.5" id="Stroke-31" stroke="#306BFF" stroke-width="1.6" stroke-linecap="round"></line>
+                    <line x1="17.5" y1="24.5" x2="31.5" y2="24.5" id="Stroke-33" stroke="#306BFF" stroke-width="1.6" stroke-linecap="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

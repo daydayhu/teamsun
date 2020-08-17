@@ -1,0 +1,93 @@
+.theme_default .sys-config-overview {
+  .sys-config-title {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .right-content{
+    margin: 15px;
+  }
+  .left-tabel {
+    .show-style {
+      margin-bottom: 15px;
+    }
+    .add-service {
+      text-align: center;
+      border: 1px dashed #ccc;
+      line-height: 40px;
+      margin: 15px ;
+      .icon-size {
+        display: inline-block;
+        margin-right: 5px;
+      }
+      &:hover {
+        cursor: pointer;
+        border: 1px dashed #20A0FF;
+        color: #20A0FF;
+      }
+    }
+
+    .table-container {
+      padding: 15px;
+      font-size: 12px;
+      /deep/ .el-table {
+        font-size: 12px;
+        tr:nth-child(2n) {
+          background-color: inherit;
+        }
+        .el-table--enable-row-hover .el-table__body tr:hover > td {
+          background-color: rgba(241, 240, 246, 1);
+        }
+        .el-table--enable-row-hover .el-table__body tr:nth-child(2n):hover > td {
+          background-color: rgba(241, 240, 246, 1);
+        }
+        .el-checkbox__inner {
+          z-index: 0 !important;
+        }
+        .iconsize {
+          color: #7F7F7F;
+        }
+        .drop-menu {
+          margin-left: 10px;
+          .el-dropdown-link {
+            cursor: pointer;
+            color: #409eff;
+          }
+          .el-icon-arrow-down {
+            font-size: 12px;
+          }
+        }
+        &:before {
+          height: 0;
+        }
+        .sys-el-switch {
+          .el-switch__core {
+            height: 12px !important;
+            width: 30px !important;
+          }
+          .el-switch__core:after {
+            top: -3px;
+            left: -2px;
+            background-color: #1a73e8;
+          }
+        }
+        .sys-el-switch.is-checked .el-switch__core::after {
+          margin-left: 14px !important;
+        }
+        .icon-box {
+          padding-top: 10px;
+          .el-button {
+            margin-left: 3px;
+            .operat-icon {
+              font-size: 15px;
+              margin-right: 3px;
+            }
+            .operat-reduce-icon {
+              font-size: 17px;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}

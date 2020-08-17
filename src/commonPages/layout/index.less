@@ -1,0 +1,283 @@
+.layout-container {
+  width: 100%;
+  height: 100vh;
+  font-family: @g-font-family-r;
+  color: @g-font-color-c;
+  .layout-box {
+    width: 100%;
+    height: 100%;
+    .header-container {
+      width: 100%;
+      height: 50px;
+      background-color: #181F47;
+      color: #bbbbbb;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 50;
+      .header-box {
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        .header-left {
+          height: 100%;
+          display: flex;
+          align-items: center;
+          .logo {
+            margin-left: 16px;
+            cursor: pointer;
+            & > img {
+              width: 39px;
+              height: 24px;
+            }
+          }
+          b {
+            margin-left: 8px;
+            font-size: 18px;
+            font-family: PingFangSC-Semibold, PingFang SC;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 1);
+          }
+          .controlC {
+            height: 24px;
+            margin-left: 16px;
+            padding-left: 16px;
+            border-left: 1px solid rgba(255, 255, 255, 0.25);;
+            transition: color 0.3s ease;
+            display: flex;
+            align-items: center;
+            color: rgba(255, 255, 255, 0.7);
+            .svg-icon {
+              width: 13px;
+              height: 13px;
+              vertical-align: center;
+            }
+            .svg-icon.active-color {
+              color: #20A0FF;
+            }
+            .name {
+              margin-left: 6px;
+              font-size: 12px;
+            }
+            &:hover {
+              cursor: pointer;
+              color: #20A0FF;
+            }
+          }
+        }
+        .header-right {
+          height: 100%;
+          display: flex;
+          align-items: center;
+          margin: 0 26px 0 auto;
+          .el-badge-c {
+            i {
+              font-size: 18px;
+            }
+            .el-badge__content {
+              height: 16px;
+              width: 16px;
+              line-height: 16px;
+              border-radius: 100%;
+              border: 0;
+              padding: 0;
+            }
+          }
+          .user-info {
+            margin-left: 35px;
+            display: flex;
+            align-items: center;
+            & :focus {
+              outline: none;
+            }
+            & :hover {
+              cursor: pointer;
+            }
+            .el-dropdown-link {
+              display: flex;
+              align-items: center;
+              .user-icon {
+                width: 24px;
+                height: 24px;
+                margin-right: 8px;
+              }
+            }
+
+            .el-dropdown {
+              color: #bbbbbb;
+            }
+          }
+        }
+      }
+    }
+    .app-warpper {
+      position: relative;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      padding-top: 50px;
+      background-color: @g-bg-color;
+
+      .sidebar-container {
+        transition: width .3s;
+        width: 56px !important;
+        height: 100%;
+        position: absolute;
+        font-size: 14px;
+        top: 50px;
+        bottom: 0;
+        left: 0;
+        z-index: 2000;
+        background-color: #fff;
+
+        .menu-box {
+          width: 100%;
+          height: 100%;
+          position: relative;
+          clear: both;
+
+          .menu-sub {
+            width: 208px;
+            height: 100%;
+            transition: all .3s;
+            background-color: #fff;
+            transform: translateX(-152px);
+            box-shadow:4px 0px 12px 0px rgba(52,69,99,0.04);
+
+          }
+
+          .menu-sub-left {
+            transform: translateX(56px);
+          }
+          .menu-sub-right {
+            transform: translateX(-152px);
+          }
+          .menu-sub-ops {
+            opacity: 0;
+          }
+          .menu-icon {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            z-index: 100;
+            border-right: 1px solid rgba(52, 69, 99, 0.08);
+            ul {
+              height: 100%;
+              li {
+                margin: 0 auto;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                &:hover {
+                  cursor: pointer;
+                }
+                .svg-icon {
+                  width: 16px;
+                  height: 16px;
+                }
+              }
+              li:first-child {
+                height: 47px;
+                border-bottom: 1px solid rgba(52, 69, 99, 0.08);
+              }
+            }
+          }
+
+          .menu-list {
+            position: absolute;
+            height: 100vh;
+            background-color: #fff;
+            top: 0;
+            left: -938px;
+            border: 1px solid #ccc;
+            z-index: 2000;
+            transition: all .1s;
+          }
+          .menu-list-left {
+            left: 0;
+          }
+        }
+      }
+
+      .main-container {
+        margin-left: 80px;
+        height: 100%;
+        /*解决列表内容超出与自适应高度问题*/
+        padding: 24px 24px 0 0;
+        overflow-y: auto;
+        font-size: 14px;
+      }
+      .main-container-left {
+        margin-left: 288px;
+      }
+
+    }
+
+  }
+  .message-drawer {
+      position: absolute;
+      height: calc(100% - 50px);
+      width: 360px;
+      right: 0;
+      top:50px;
+      .el-card__header {
+          background-color: #EBEEF5;
+      }
+  }
+}
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  /*background-color: #F1F1F1;*/
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #C1C1C1;
+}
+
+.messageAnimation-enter-active {
+    animation: show-enter 0.5s;
+}
+
+.messageAnimation-leave-active {
+    animation: show-leave 0.5s;
+}
+
+.messageAnimation-enter, .messageAnimation-leave-to {
+    right:-360px
+}
+
+.messageAnimation-enter-to, .messageAnimation-leave {
+    right:0px
+}
+
+@keyframes show-enter {
+    0% {
+        transform: translate(360px,0);
+    }
+    100% {
+        transform: translate(0,0);
+    }
+}
+
+@keyframes show-leave {
+  0% {
+      transform: translate(0,0);
+  }
+  100% {
+      transform: translate(360px,0);
+  }
+}

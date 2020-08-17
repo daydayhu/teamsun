@@ -1,0 +1,35 @@
+.baseDataPage {
+  position: relative;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  .ts-content-wrap {
+    position: relative;
+    padding: 40px 0 0 0;
+    .search-c {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 235px;
+      padding: 0 8px;
+    }
+    /deep/ .el-tabs {
+      padding-left: 75px;
+      height: calc(100vh - 32px - 24px - 24px - 24px - 40px);
+      .el-tabs__header {
+        margin-right: 0;
+      }
+      .el-tabs__active-bar {
+        width: 2px !important;
+      }
+      .el-tabs__item {
+        padding: 0;
+        width: 160px !important;
+        height: 46px;
+        text-align: left;
+        font-family: @g-font-family-r;
+        font-size: 13px;
+      }
+    }
+  }
+}

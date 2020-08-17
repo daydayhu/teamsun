@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>ico_qz</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="14" height="14"></rect>
+    </defs>
+    <g id="城商行" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图-运营中心" transform="translate(-279.000000, -1682.000000)">
+            <g id="ico_qz" transform="translate(279.000000, 1682.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="矩形" opacity="0" fill-rule="nonzero"></g>
+                <path d="M3.09166211,0.466662109 C2.83353711,0.466662109 2.625,0.675212891 2.625,0.933337891 L2.625,13.0666621 C2.625,13.3247871 2.83353711,13.5333379 3.09166211,13.5333379 C3.34978711,13.5333379 3.55833789,13.3247871 3.55833789,13.0666621 L3.55833789,0.933337891 C3.55833789,0.675212891 3.34978711,0.466662109 3.09166211,0.466662109 L3.09166211,0.466662109 Z M11.3254121,4.738125 L5.20625,0.912912109 C4.895625,0.718962891 4.49166211,0.942087891 4.49166211,1.308125 L4.49166211,8.95708789 C4.49166211,9.323125 4.89416211,9.54771289 5.20625,9.35228711 L11.3254121,5.52708789 C11.6170879,5.34625 11.6170879,4.92041211 11.3254121,4.738125 Z" id="形状" fill="#DC0000" fill-rule="nonzero" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

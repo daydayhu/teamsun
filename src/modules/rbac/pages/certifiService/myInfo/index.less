@@ -1,0 +1,49 @@
+.role-manage {
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+  .ts-header {
+    @flex();
+    height: 24px;
+
+    & > b {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 32px;
+      float: left;
+    }
+
+    & > div {
+      margin-left: auto;
+
+      .ts-guide {
+        margin-right: 14px;
+      }
+
+      button {
+        padding: 8px 22px;
+      }
+    }
+  }
+
+  .ts-content-wrap {
+    margin-top: 24px;
+    padding: 24px 32px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 12px 0 rgba(52, 69, 99, 0.04);
+    border-radius: 4px;
+    overflow: hidden;
+    height: 100%;
+
+    .table-container {
+      margin-top: 20px;
+
+      .operate-line {
+        color: #E7EDF3;
+        padding: 0 8px;
+      }
+    }
+  }
+
+}

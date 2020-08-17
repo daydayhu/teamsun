@@ -1,0 +1,233 @@
+// // button
+// .el-button {
+//   @g-btn-base();
+// }
+
+// .el-button--text {
+//   @g-btn-text();
+// }
+
+// .el-button--primary {
+//   @g-btn-primary();
+// }
+
+// .el-button--primary:hover {
+//   background: rgba(48, 107, 255, 0.9); // #66b1ff
+//   border-color: rgba(48, 107, 255, 0.9); // #66b1ff
+//   color: #fff;
+// }
+
+// .el-button--primary:focus {
+//   background: rgba(48, 107, 255, 0.9); // #66b1ff
+//   border-color: rgba(48, 107, 255, 0.9); // #66b1ff
+//   color: #fff;
+// }
+
+// .el-radio-button__orig-radio:checked + .el-radio-button__inner {
+//   background: @g-m-color;
+//   border-color: @g-m-color;
+//   box-shadow: 0 4px 8px 0 rgba(48, 107, 255, 0.35);
+// }
+
+// // table
+// .el-table {
+//   @g-table-base();
+//   &:before {
+//     height: 0;
+//   }
+// }
+
+// .el-table th {
+//   @g-table-th();
+// }
+
+// .el-table th.is-leaf {
+//   border-bottom: 0;
+// }
+
+// .el-table td {
+//   @g-table-td();
+// }
+
+// pagination .el-pagination.is-background .btn-prev,
+// .el-pagination.is-background .btn-next,
+// .el-pagination.is-background .el-pager li {
+//   @g-pagination-block();
+// }
+
+// .el-pagination.is-background .el-pager li:not(.disabled).active {
+//   background: @g-font-color-m !important;
+// }
+
+// .el-pager li {
+//   height: 28px;
+//   line-height: 26px;
+// }
+
+// // tabs
+// .el-tabs__item {
+//   color: @g-font-color-c;
+// }
+// .el-tabs__item.is-active {
+//   color: @g-font-color-m !important;
+// }
+// .el-tabs__active-bar {
+//   background-color: @g-m-color;
+// }
+
+// .el-loading-mask {
+//   z-index: 1500;
+// }
+
+// // 解决tabs组件出现蓝色边框问题
+// .el-tabs__item:focus.is-active.is-focus:not(:active) {
+//   box-shadow: none;
+// }
+
+// //dialog
+// .el-dialog__header {
+//   border-bottom: 1px solid rgba(233, 237, 240, 1);
+// }
+// // .el-drawer__body{
+// //   .baseForm_wrap {
+// //     padding-bottom: 60px;
+// //     .baseForm_footer{
+// //       bottom: 0px !important;
+// //     }
+// //   }
+
+// // }
+
+// .el-dialog__footer {
+//   border-top: 1px solid rgba(233, 237, 240, 1);
+// }
+// // el-drawer
+// .el-drawer__header span:focus {
+//   outline: none;
+// }
+// //折叠面板自定义
+// .el-collapse {
+//   border: 1px solid #f0f0f0;
+// }
+// .el-collapse-item {
+//   margin-bottom: 20px;
+// }
+// .el-collapse-item__arrow {
+//   position: absolute;
+//   left: 10px;
+// }
+// .el-collapse-item__header {
+//   padding-left: 30px;
+//   background-color: #f0f0f0;
+// }
+
+// // textarea
+// .el-textarea .el-input__count {
+//   bottom: 0;
+//   right: -45px;
+// }
+
+// // 步骤条 自定义css
+// .ts-custom-steps {
+//   //margin-top: 30px;
+//   .el-step {
+//     padding-right: 5%;
+//   }
+//   .el-step:last-of-type.is-flex {
+//     flex-basis: 50% !important;
+//   }
+//   // both
+//   .el-step__head {
+//     font-size: 14px;
+//     .el-step__icon {
+//       top: -4px;
+//       left: -8px;
+//       width: 32px;
+//       height: 32px;
+//     }
+//     .el-step__icon.is-text {
+//       border: 1px solid;
+//     }
+//     .el-step__icon-inner {
+//       font-weight: normal;
+//     }
+//   }
+//   .el-step__head.is-process {
+//     color: #ffffff;
+//     border-color: #306bff;
+//     .el-step__icon.is-text {
+//       background: #306bff;
+//     }
+//   }
+//   .el-step__head.is-success {
+//     color: #306bff;
+//     border-color: #306bff;
+//   }
+//   .el-step__main {
+//     position: absolute;
+//     top: -8px;
+//     left: 24px;
+//     padding: 0 14px 0 8px;
+//     background: #eef0f5;
+//     .el-step__title {
+//       font-size: 14px;
+//     }
+//     .el-step__title.is-success {
+//       color: #19223b;
+//       font-weight: 600;
+//     }
+//   }
+// }
+// // 步骤页面 头部左侧返回
+// .ts-custom-steps-header-back {
+//   display: block;
+//   align-items: center;
+//   .icon {
+//     font-size: 16px;
+//     color: #409eff;
+//     cursor: pointer;
+//   }
+//   .title {
+//     font-size: 16px;
+//     padding-left: 10px;
+//     line-height: 24px;
+//   }
+//   .back-text {
+//     font-size: 12px;
+//     vertical-align: middle;
+//     display: inline-block;
+//     height: 17px;
+//   }
+//   /deep/.back-breadcrumb {
+//     .el-breadcrumb:last-child {
+//       .el-breadcrumb__inner {
+//         font-weight: 700;
+//         color: #303133;
+//       }
+//     }
+//     .el-breadcrumb {
+//       padding: 16px 0;
+//       font-size: 12px;
+//       .is-link {
+//         font-weight: 400 !important;
+//         color: #606266 !important;
+//       }
+//       .is-link:hover {
+//         color: #409eff !important;
+//       }
+//     }
+//   }
+// }
+// //input框
+
+// // .el-input__inner {
+// //   border-radius: 14px;
+// //   padding: 0 10px;
+// // }
+
+// // .el-button--small{
+// //   border-radius: 14px;
+// // }
+// // .el-button--primary{
+// //   background-color: #6353e5;
+// // }

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>ico_yh</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="24" rx="12"></rect>
+    </defs>
+    <g id="城商行" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-335.000000, -169.000000)">
+            <g id="ico_yh" transform="translate(335.000000, 169.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="矩形" fill="#306BFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <path d="M11.8515,4.9865 C13.8185,4.9865 15.413,6.555 15.413,8.4895 C15.413,10.4245 13.8185,11.993 11.8515,11.993 C9.8845,11.993 8.29,10.4245 8.29,8.4895 C8.29,6.5545 9.885,4.9865 11.8515,4.9865 L11.8515,4.9865 Z M11.8515,4.9865 C13.8185,4.9865 15.413,6.555 15.413,8.4895 C15.413,10.4245 13.8185,11.993 11.8515,11.993 C9.8845,11.993 8.29,10.4245 8.29,8.4895 C8.29,6.5545 9.885,4.9865 11.8515,4.9865 L11.8515,4.9865 Z M10.516,13.161 L13.4845,13.161 C16.0255,13.161 18.085,15.1865 18.085,17.686 L18.085,17.9775 C18.085,18.9625 16.025,19 13.4845,19 L10.516,19 C7.975,19 5.9155,18.9985 5.9155,17.9775 L5.9155,17.686 C5.9155,15.1865 7.975,13.161 10.516,13.161 L10.516,13.161 Z" id="形状" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

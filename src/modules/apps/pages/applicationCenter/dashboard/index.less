@@ -1,0 +1,219 @@
+.app_dashboard{
+  width: 100%;
+  max-width: calc(100vw - 304px);
+  .one-wrap{
+    margin-bottom: 16px;
+    .one-wrap-item{
+      padding-right: 16px;
+      &:nth-child(3n){
+        padding-right: 0;
+      }
+    }
+    .item{
+      height: 240px;
+      border-radius: 14px;
+      border: 1px solid rgba(51,42,124,0.1);
+      .title{
+        margin-top: 16px;
+        margin-left: 16px;
+      }
+      .icon-c{
+        font-size: 56px;
+      }
+      //待处理事项
+      .todo{
+        padding:24px 16px;
+        .el-col{
+          margin-right: 11px;
+          padding-right:0px;
+          &:nth-child(3n){
+            margin-right: 0;
+          }
+        }
+        .todo-item{
+          text-align: center;
+          box-shadow: 0px 3px 15px 0px rgba(51,42,125,0.1);
+          border-radius: 14px;
+          .todo-item-avatar{
+            padding-top:4px;
+          }
+          .num{
+            .el-button{
+              font-size:40px;
+              font-weight:500;
+              line-height:42px;
+              padding-top: 2px;
+              padding-bottom: 10px;
+            }
+          }
+          .todo-title{
+            font-size:14px;
+            line-height:22px;
+            font-weight:400;
+            padding-bottom: 16px;
+          }
+        }
+      }
+      // 虚拟机
+      .virtual{
+        .virtual-border{
+          border: 1px solid rgba(51,42,124,0.1);
+          height: 1px;
+          margin: 0 16px;
+        }
+        .virtual-top-left{
+          padding-left:48px;
+          padding-top:25px;
+          .num{
+            font-size:50px;
+            font-weight:500;
+            line-height:58px;
+          }
+          .unit{
+            display: inline-block;
+            font-size:14px;
+            font-weight:400;
+            line-height:22px;
+            padding-left: 4px;
+            padding-bottom: 4px;
+          }
+        }
+        .virtual-top-right{
+          text-align: right;
+          padding-left: 78px;
+          padding-top: 16px;
+          .virtual-right-icon-wrap{
+            display: flex;
+            //justify-content: flex-end;
+            align-items: center;
+            margin-bottom: 8px;
+            .virtual-right-icon-d{
+              line-height: 1;
+            }
+            .virtual-right-icon{
+              font-size: 16px;
+            }
+            .virtual-right-icon-title{
+              font-weight:400;
+              color:rgba(25,34,59,1);
+              line-height:20px;
+              font-size:12px;
+              display: inline-block;
+              padding-left: 8px;
+            }
+          }
+
+        }
+        .virtual-bottom{
+          .virtual-bottom-circle{
+            p{
+              text-align: center;
+            }
+            .virtual-bottom-bg{
+              height: 82px;
+              width: 82px;
+              margin: 0 auto;
+              position: relative;
+              span{
+                font-weight:500;
+                font-size:16px;
+                line-height:24px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+              }
+              &.violet{
+                background: url("../../../../../commons/images/g_violet_circle.png");
+                background-size: 100% 100%;
+
+              }
+              &.green{
+                background: url("../../../../../commons/images/g_green_circle.png");
+                background-size: 100% 100%;
+
+              }
+              &.orange{
+                background: url("../../../../../commons/images/g_orange_circle.png");
+                background-size: 100% 100%;
+
+              }
+            }
+          }
+
+        }
+      }
+      // 金属裸机
+      .metal{
+        .metal-left{
+          .metal-left-icon{
+            padding-left: 54px;
+            padding-top: 27px;
+            .svg-icon{
+              font-size: 78px;
+            }
+          }
+          .metal-left-bottom{
+            padding-left:48px;
+            .num{
+              font-size:50px;
+              font-weight:500;
+              line-height:58px;
+            }
+            .unit{
+              display: inline-block;
+              font-size:14px;
+              font-weight:400;
+              line-height:22px;
+              padding-left: 4px;
+              padding-bottom: 4px;
+            }
+          }
+        }
+        .metal-right{
+          padding-top:71px;
+          .metal-right-icon-wrap{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 16px;
+            .metal-right-icon-d{
+              line-height: 1;
+            }
+            .metal-right-icon{
+              font-size: 16px;
+            }
+            .metal-right-icon-title{
+              font-weight:400;
+              color:rgba(25,34,59,1);
+              line-height:20px;
+              font-size:12px;
+              display: inline-block;
+              padding-left: 8px;
+            }
+          }
+
+        }
+
+      }
+    }
+  }
+  .pie{
+    margin-bottom: 16px;
+    .el-col{
+      padding-right: 16px;
+      &:nth-child(2n){
+        padding-right: 0;
+      }
+    }
+    .item{
+      .title{
+        margin-top: 16px;
+        margin-left: 16px;
+      }
+      height: 280px;
+      border-radius: 14px;
+      border: 1px solid rgba(51,42,124,0.1);
+    }
+  }
+}

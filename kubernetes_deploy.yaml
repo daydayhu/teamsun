@@ -1,0 +1,71 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: cmp-web-rbac
+  labels:
+    name: cmp-web-rbac
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: cmp-web-rbac
+  template:
+    metadata:
+      labels:
+        name: cmp-web-rbac
+    spec:
+      imagePullSecrets:
+        - name: 172-30-120-161-harbor-secret
+      containers:
+        - name: cmp-web-rbac
+          image: '$IMAGE_NAME'
+          imagePullPolicy: Always
+          volumeMounts:
+          - name: log-cmp-web-rbac
+            mountPath: /var/log/nginx/
+          - name: date
+            mountPath: /etc/localtime
+            readOnly: true
+          - name: nginx-upload
+            mountPath: /tmp/nginx_upload
+
+          ports:
+            - containerPort: 80
+              protocol: TCP
+          resources:
+            limits:
+              cpu: '1'
+              memory: 512Mi
+            requests:
+              cpu: 200m
+              memory: 200Mi
+      volumes:
+      - name: log-cmp-web-rbac
+        nfs:
+          server: 172.16.193.80
+          path: /data/nfs/logs/cmp_web_rbac
+      - name: nginx-upload
+        nfs:
+          server: 172.16.134.56
+          path: /home/nfs/nginx
+      - name: date
+        hostPath:
+          path: /etc/localtime
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: cmp-web-rbac
+  labels:
+    name: cmp-web-rbac
+spec:
+  ports:
+    - name: cmp-web-rbac-0
+      protocol: TCP
+      port: 9080
+      targetPort: 80
+      nodePort: 32200
+  selector:
+    name: cmp-web-rbac
+  type: NodePort

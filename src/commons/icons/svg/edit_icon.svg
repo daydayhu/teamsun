@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>ico_xg_l</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="14" height="14"></rect>
+    </defs>
+    <g id="功能界面设计" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图-运营中心" transform="translate(-438.000000, -1169.000000)">
+            <g id="ico_xg_l" transform="translate(438.000000, 1169.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="矩形" opacity="0" fill-rule="nonzero"></g>
+                <path d="M3.2,10.3 C3.4,10.3 3.6,10.2 3.8,10.1 L3.9,10.1 L1.90000001,8.10000002 L1.90000001,8.20000002 C1.8,8.4 1.7,8.60000002 1.7,8.8 L0.999999998,11 L3.2,10.3 L3.2,10.3 L3.2,10.3 L3.2,10.3 Z M10.2,2.29999999 L9.60000001,1.59999999 C9.2,1.19999999 8.7,1.19999999 8.30000001,1.59999999 L7.7,2.29999999 L9.60000001,4.2 L10.2,3.6 C10.6,3.2 10.6,2.60000001 10.2,2.29999999 L10.2,2.29999999 L10.2,2.29999999 L10.2,2.29999999 Z M9,4.8 L7.10000001,2.9 L2.60000001,7.4 L4.50000001,9.30000001 L9,4.8 L9,4.8 L9,4.8 L9,4.8 Z M0,12 L14,12 L14,13 L0,13 L0,12 L0,12 Z" id="形状" fill="#306BFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

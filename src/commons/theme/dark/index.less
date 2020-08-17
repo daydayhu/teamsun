@@ -1,0 +1,113 @@
+.theme_dark {
+  @import './element-variables';
+  background: @g-bg-color;
+  color: @g-font-color-c;
+  font-family: @g-font-family-r;
+  .g_bg_color {
+    background: @g-bg-color !important;
+  }
+  // pageHeader
+  @g-pageHeader-bg-color:  rgba(30, 33, 61, 1);
+  @g-pageHeader-font-color: rgba(255, 255, 255, 1);
+  //...
+  // TODO: 重写elementUI样式
+
+  // TODO: 详情页 样式二期改造
+
+  // start TODO: 详情页  带选项卡的==================================================
+  @details-base-info: {
+    padding: 24px 32px;
+    border-radius: 20px;
+    background: @g-bg-color-d;
+    border: solid 1px;
+    border-color:  @g-border-color-d;
+    color: @g-font-color-d;
+  };
+
+  @details-content: {
+    margin: 24px auto;
+    border-radius: 4px;
+    background: @g-bg-color-d;
+    padding: 10px 24px 10px;
+  };
+
+  @details-table-container: {
+    padding-top: 17px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background: @g-bg-color-d;
+    border-radius: 4px;
+  };
+
+  @detail-overview: {
+    /deep/ .el-tabs__content{
+      overflow: initial;
+    }
+    .details-base-info {
+      @details-base-info();
+      .ts-avatar {
+        margin: 0 32px 0 0;
+      }
+      .ts-base-title {
+        margin-bottom: 16px;
+        & > h3 {
+          color: @g-font-color-c;
+        }
+      }
+      .details-base-cell {
+        @flex();
+        margin-top: 8px;
+        height: 20px;
+        .ts-base-label {
+          display: inline-block;
+          width: 100px;
+          // color: @g-font-color-e;
+        }
+
+        // .ts-base-value {
+        //   color: @g-font-color-c;
+        // }
+      }
+
+    }
+    .ts-content {
+      border-radius:14px;
+      border:1px solid @g-border-color-dc;
+      min-height: calc(100vh - 316px);
+      position: relative;
+      .button-operate{
+        position: absolute;
+        right: 6px;
+        top: -48px;
+      }
+      @details-content();
+      .table-container {
+        @details-table-container();
+      }
+      /deep/ .el-tabs__nav-wrap::after {
+        background: none;
+      }
+      /deep/ .el-table {
+        color: @g-font-color-d;
+        th {
+          color: @g-font-color-d;
+        }
+      }
+      /deep/ .el-tabs__active-bar {
+        background-color: @g-bg-color-t;
+      }
+      /deep/ .el-tabs__item {
+        font-family: @g-font-family-r;
+        font-weight: 400;
+        color: @g-font-color-d;
+      }
+      /deep/ .el-tabs__item.is-active {
+        font-family: @g-font-family-m;
+        font-weight: 500;
+        color: @g-font-color-d !important;
+      }
+    }
+
+  }
+  // end 详情结束
+}

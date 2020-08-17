@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>折线</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="16"></rect>
+    </defs>
+    <g id="城商行" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-514.000000, -1620.000000)">
+            <g id="折线" transform="translate(514.000000, 1620.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="矩形" opacity="0" fill-rule="nonzero"></g>
+                <polygon id="直线-2" fill="#000000" fill-rule="nonzero" mask="url(#mask-2)" points="5.47922884 3 5.478943 10.9200683 9.1095337 10.9200683 9.1102816 8.28012678 15 11.1400634 9.1102816 14 9.1095337 11.3600585 5.05853467 11.3600585 5.05824883 3.43935407 1.21081292 3.44493511 1.00046597 3.44517878 1 3.0051888 1.21034696 3.00494513 5.26864878 3.00024394"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

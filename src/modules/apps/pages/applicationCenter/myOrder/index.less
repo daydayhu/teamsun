@@ -1,0 +1,30 @@
+.myOrder {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  /deep/.el-icon-success {
+    color: #67C23A;
+  }
+
+  /deep/.el-icon-circle-plus {
+    color: #409EFF;
+  }
+
+  /deep/.el-icon-error {
+    color: #F56C6C;
+  }
+
+  /deep/.el-icon-remove {
+    color: #E6A23C;
+  }
+  .ts-middle-part {
+    @ts-middle-part();
+  }
+  .ts-body-part {
+    @ts-body-part();
+    .ts-page-block {
+      @ts-pagination-reset-base();
+    }
+
+  }
+}

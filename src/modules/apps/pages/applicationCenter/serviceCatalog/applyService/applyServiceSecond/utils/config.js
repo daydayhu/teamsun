@@ -1,0 +1,35 @@
+export const node = {
+    tableHeader: [{
+        label: '名称',
+        key: 'alias_name',
+    }, {
+        label: '版本',
+        key: 'cloud_version',
+    }, {
+        label: '资源环境',
+        key: 'cloud_env',
+    }, {
+        label: '域名/IP',
+        key: 'cloud_ip',
+    }, {
+        label: '端口',
+        key: 'cloud_port',
+    }, {
+        label: '用户名',
+        key: 'user_name',
+    }, {
+        label: '连接状态',
+        key: 'is_connect',
+    }, {
+        label: '同步状态',
+        key: 'sync_status',
+    }, {
+        label: '上次同步时间',
+        key: 'sync_time',
+    }, {
+        label: '创建时间',
+        key: 'create_time',
+    }, {
+        label: '描述',
+        key: 'remarks',
+    }],

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="16px" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>清空</title>
+    <desc>Created with Sketch.</desc>
+    <g id="城商行" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-654.000000, -1620.000000)" fill-rule="nonzero">
+            <g id="清空" transform="translate(654.000000, 1620.000000)">
+                <rect id="矩形" fill="#FFFFFF" x="1" y="0" width="16" height="16"></rect>
+                <path d="M11.5,3 L11.5,2 C11.5,1.44775 11.05225,1 10.5,1 L7.5,1 C6.94774999,1 6.5,1.44775 6.5,2 L6.5,3 L2.5,3 L2.5,4 L4,4 L4,14 C4,14.55225 4.44775,15 5,15 L13,15 C13.55225,15 14,14.55225 14,14 L14,4 L15.5,4 L15.5,3 L11.5,3 Z M7.49999999,2 L10.5,2 L10.5,3 L7.49999999,3 L7.49999999,2 Z M13,14 L4.99999999,14 L4.99999999,3.99999999 L13,3.99999999 L13,14 Z M6.49999999,5.5 L7.49999999,5.5 L7.49999999,12.5 L6.49999999,12.5 L6.49999999,5.5 Z M8.49999999,5.5 L9.49999999,5.5 L9.49999999,12.5 L8.49999999,12.5 L8.49999999,5.5 Z M10.5,5.5 L11.5,5.5 L11.5,12.5 L10.5,12.5 L10.5,5.5 Z" id="形状" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

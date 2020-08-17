@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="769.449" viewBox="0 0 1366 769.449">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(51,42,124,0.1);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4, .cls-7 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: rgba(99,83,229,0.1);
+        stroke-width: 24px;
+      }
+
+      .cls-5 {
+        fill: #a098eb;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6353e5" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#6353e5" stop-opacity="0.102"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6353e5" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#6353e5" stop-opacity="0.102"/>
+    </linearGradient>
+  </defs>
+  <g id="bj" transform="translate(0 1.449)">
+    <rect id="矩形_5" data-name="矩形 5" class="cls-1" width="1366" height="768"/>
+    <path id="路径_1" data-name="路径 1" class="cls-2" d="M2703,106.719s250.2,31.046,492.741-157.168c3.881,1.94-492.741,0-492.741,0Z" transform="translate(-2703 49)"/>
+    <path id="路径_2" data-name="路径 2" class="cls-3" d="M2964.841,719s232.841-14.656,440.457-231.974S3510.077,85.375,3746.8,58.21s322.1,209.557,322.1,209.557V719Z" transform="translate(-2703 49)"/>
+    <g id="椭圆_1" data-name="椭圆 1" class="cls-4" transform="translate(81 539)">
+      <circle class="cls-6" cx="50.5" cy="50.5" r="50.5"/>
+      <circle class="cls-7" cx="50.5" cy="50.5" r="38.5"/>
+    </g>
+    <circle id="椭圆_6" data-name="椭圆 6" class="cls-5" cx="18.5" cy="18.5" r="18.5" transform="translate(1219 41)"/>
+  </g>
+</svg>

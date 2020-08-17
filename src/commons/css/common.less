@@ -1,0 +1,353 @@
+// TODO: 基础样式==================================================
+
+// 背景
+//@g-bg-color: rgba(245,246,250,1);
+//@g-bg-color:#eef0f5;
+// 主题背景
+@g-bg-color: #fff;
+@g-m-color: rgba(48,107,255,1);
+
+// 边框--颜色
+@g-border-color: rgba(25,34,59,0.08);
+
+// 字体--样式
+@g-font-family-r: PingFangSC-Regular,PingFang SC; // 常规
+
+@g-font-family-m: PingFangSC-Medium,PingFang SC; // 中等
+
+@g-font-family-s: PingFangSC-Semibold,PingFang SC; // 半粗
+
+
+// 字体--颜色
+@g-font-color-h: rgba(51, 42, 124, 1);
+
+@g-font-color-c: rgba(25,34,59,1); // 内容文字
+
+@g-font-color-q: rgba(25,34,59,0.85); // 内容文字 浅
+
+@g-font-color-e: rgba(25,34,59,0.45); // 解释文字
+
+@g-font-color-n: rgba(25,34,59,0.25); // 不可用
+
+@g-font-color-m: rgba(48,107,255,1); // 主色调
+
+
+// TODO: 元素样式==================================================
+
+// button
+// @g-btn-base: {
+//   //border: 1px solid rgba(216,222,233,1);
+//   border: 1px solid #306bff;
+//   font-family: @g-font-family-r;
+//   color: @g-font-color-c;
+// }
+
+// @g-btn-primary: {
+//   background: @g-m-color;
+//   box-shadow: 0 4px 8px 0 rgba(48,107,255,0.35);
+//   border-radius: 4px;
+//   font-size: 12px;
+//   font-family: @g-font-family-r;
+//   font-weight: 400;
+//   color: rgba(255,255,255,1);
+// }
+
+// @g-btn-text: {
+//   font-size: 12px;
+//   font-family: @g-font-family-r;
+//   font-weight: 400;
+//   color: @g-font-color-m;
+//   border: 0
+// }
+
+// @g-btn-disabled: {
+//   background: rgba(0,0,0,0.04);
+//   border-radius: 4px;
+//   border: 1px solid rgba(0,0,0,0.15);
+//   font-size: 12px;
+//   font-family: @g-font-family-r;
+//   font-weight: 400;
+//   color: @g-font-color-n;
+// }
+
+// table
+@g-table-base: {
+  font-size: 12px;
+  font-family: @g-font-family-r;
+  font-weight: 400;
+  color: @g-font-color-c;
+}
+
+@g-table-th: {
+  height: 54px;
+  font-size: 14px;
+  font-family: @g-font-family-r;
+  color: @g-font-color-e;
+  background-color: rgba(48,107,255,0.03);
+  border: 0;
+}
+
+@g-table-td: {
+  @g-table-base
+  border-bottom: 1px solid rgba(25,34,59,0.08);
+  padding: 6px 0;
+}
+
+// pagination
+@g-pagination-block: {
+  font-size: 12px;
+  border-radius: 4px;
+  border: 1px solid rgba(216,222,233,1);
+  background-color: #ffffff;
+  color: @g-font-color-c;
+}
+
+// tabs
+.el-tabs {
+  .el-tabs__active-bar {
+    background-color: #6353E5;
+  }
+  .el-tabs__item {
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(51,42,124,1);
+  }
+  .el-tabs__item.is-active {
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    color:rgba(51,42,124,1) !important;
+  }
+  .el-tabs__nav-wrap::after {
+    background: none;
+  }
+}
+
+// search 待补充
+
+
+// TODO: 公共布局==================================================
+
+@flex: {
+  display: flex;
+  align-items: center;
+}
+
+
+// TODO: url==================================================
+
+@images: "@/commons/images/";
+
+// TODO: 自定义==================================================
+
+@ts-middle-part: {
+  //max-height: 32px;
+}
+@ts-body-part: {
+  min-height: calc(100vh - 154px); // 24px * 2 + 34px + 24px + 32px + 16px = 154px
+  position: relative;
+  margin: 16px auto 0;
+  padding: 0 24px 77px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  overflow: hidden;
+  //box-sizing: border-box;
+}
+
+@ts-body-label-part: {
+  min-height: calc(100vh - 154px - 32px - 16px); // 24px * 2 + 34px + 24px + 32px + 16px = 154px
+  position: relative;
+  margin: 16px auto 0;
+  padding: 0 24px 77px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+@ts-content-form-layout: {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 106px); // 24px * 2 + 34px + 24px = 106px
+  position: relative;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+}
+@ts-sub-part-layout: {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 106px); // 24 * 2 + 34 + 24px
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+}
+@ts-detail-part-layout: {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 106px); // 24 * 2 + 34 + 24px
+  position: relative;
+}
+
+@ts-content-wrap-base: {
+  min-height: calc(100vh - 156px);
+  position: relative;
+  margin: 0 auto 24px;
+  padding: 24px 32px;
+  background: rgba(255,255,255,1);
+  box-shadow: 0 4px 12px 0 rgba(52,69,99,0.04);
+  border-radius: 4px;
+  overflow: hidden;
+}
+@table-container-base: {
+  margin-top: 16px;
+  padding: 0 0 53px 0;
+}
+
+@ts-pagination-reset-base: {
+  position: absolute;
+  left: 0;
+  bottom: 24px;
+  margin: 0;
+  width: 100%;
+  padding: 0 24px;
+}
+
+// TODO: 详情页==================================================
+
+// start TODO: 详情页  带选项卡的==================================================
+@details-base-info: {
+  padding: 24px 32px;
+  border-radius: 20px;
+  background: #ffffff;
+  border: solid 1px;
+  border-color: #D8DEE9;
+  color:rgba(51,42,124,1);
+}
+
+@details-content: {
+  margin: 24px auto;
+  // border-radius: 4px;
+  background: #ffffff;
+  padding: 10px 24px 10px;
+}
+
+@details-table-container: {
+  padding-top: 17px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+@detail-overview: {
+  /deep/ .el-tabs__content{
+    overflow: initial;
+  }
+  .details-base-info {
+    @details-base-info();
+    .ts-avatar {
+      margin: 0 32px 0 0;
+    }
+    .ts-base-title {
+      margin-bottom: 16px;
+      & > h3 {
+        color: @g-font-color-c;
+      }
+    }
+    .details-base-cell {
+      @flex();
+      margin-top: 8px;
+      height: 20px;
+      .ts-base-label {
+        display: inline-block;
+        width: 100px;
+      }
+    }
+
+  }
+  .ts-content {
+    border-radius:14px;
+    border:1px solid rgba(51,42,124,0.1);
+    min-height: calc(100vh - 316px);
+    position: relative;
+    .button-operate{
+      position: absolute;
+      right: 6px;
+      top: -48px;
+    }
+    @details-content();
+    .table-container {
+      @details-table-container();
+    }
+    /deep/ .el-table {
+      color:rgba(51,42,124,1);
+      th {
+        color:rgba(51,42,124,1);
+      }
+    }
+  }
+
+}
+// end 详情结束
+
+//start  自定义表格样式
+@custom-table:{
+  .custom-table {
+    ul {
+      width: 100%;
+      height: auto;
+      border: 1px solid #e7edf3;
+    }
+
+    li:nth-child(odd) {
+      background: #f8faff;
+    }
+
+    li:nth-child(4) {
+      border-bottom: none;
+    }
+
+    li {
+      width: 100%;
+      height: 60px;
+      line-height: 60px;
+      border-bottom: 1px solid #e7edf3;
+      overflow: hidden;
+
+      .left {
+        width: 20%;
+        height: 100%;
+        border-right: 1px solid #e7edf3;
+        float: left;
+        text-align: center;
+      }
+
+      .right {
+        width: 80%;
+        height: 100%;
+        float: left;
+        text-indent: 2em;
+      }
+    }
+  }
+}
+// end  自定义表格样式结束
+
+// 列表弹层操作按钮
+@operate-btn-common: {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  height: 50px;
+  line-height: 50px;
+  padding-right: 32px;
+  border-top: 1px solid #E7EDF3;
+}
+
+
+
+
+

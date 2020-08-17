@@ -1,0 +1,104 @@
+.certOrgan {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  .ts-middle-part {
+    @ts-middle-part();
+    .operate-line {
+      color: #E7EDF3;
+      padding: 0 8px;
+    }
+  }
+  .ts-body-part {
+    @ts-body-part();
+    // 隐藏表格数据为空
+    /deep/ .el-tree {
+      color: #332A7C;
+    }
+    .showLink {
+      color: #409EFF;
+      cursor: pointer;
+    }
+    .showDefaultLink {
+      color: #332A7C;
+      cursor: default;
+    }
+    /deep/ .el-table__empty-block {
+      display: none;
+    }
+    /deep/ .el-tree-node__content {
+      height: 52px;
+      border-bottom: 1px solid rgba(235, 237, 242, 1);
+      line-height: 23px;
+      padding-left: 0 !important;
+
+      .ts-organization-level {
+        color: #409EFF;
+        cursor: pointer;
+      }
+
+      .ts-organ-coll {
+        display: inline-block;
+        width: 20%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding-right: 20px;
+      }
+
+      .treePar {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+    .el-tree {
+      font-size: 13px;
+    }
+    .ts-page-block {
+      @ts-pagination-reset-base();
+    }
+  }
+  // .ts-content-wrap {
+  //   @ts-content-wrap-base();
+  //   .table-container {
+  //     margin-top: 20px;
+  //     // 隐藏表格数据为空
+  //     /deep/ .el-table__empty-block {
+  //       display: none;
+  //     }
+  //     /deep/ .el-tree-node__content {
+  //       height: 52px;
+  //       border-bottom: 1px solid rgba(235, 237, 242, 1);
+  //       line-height: 23px;
+  //       padding-left: 0 !important;
+
+  //       .ts-organization-level {
+  //         color: #409EFF;
+  //         cursor: pointer;
+  //       }
+
+  //       .ts-organ-coll {
+  //         display: inline-block;
+  //         width: 20%;
+  //         overflow: hidden;
+  //         text-overflow: ellipsis;
+  //         padding-right: 20px;
+  //       }
+
+  //       .treePar {
+  //         overflow: hidden;
+  //         white-space: nowrap;
+  //         text-overflow: ellipsis;
+  //       }
+  //     }
+  //     .el-tree {
+  //       font-size: 13px;
+  //     }
+  //   }
+  //   .operate-line {
+  //     color: #E7EDF3;
+  //     padding: 0 8px;
+  //   }
+  // }
+}
+

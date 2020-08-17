@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="78px" viewBox="0 0 78 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>金属裸机</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M39,5 C54.463973,5 67,17.536027 67,33 C67,48.463973 54.463973,61 39,61 C23.536027,61 11,48.463973 11,33 C11,17.536027 23.536027,5 39,5 Z" id="path-1"></path>
+        <filter x="-34.8%" y="-24.1%" width="169.6%" height="169.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.2   0 0 0 0 0.164705882   0 0 0 0 0.490196078  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="蓝紫新风格" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-0-0应用中心-概览" transform="translate(-1052.000000, -201.000000)">
+            <g id="金属裸机" transform="translate(1052.000000, 201.000000)">
+                <g id="路径">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M39,7.8 C25.0824243,7.8 13.8,19.0824243 13.8,33 C13.8,46.9175757 25.0824243,58.2 39,58.2 C52.9175757,58.2 64.2,46.9175757 64.2,33 C64.2,19.0824243 52.9175757,7.8 39,7.8 Z" id="路径" fill="#6353E5" fill-rule="nonzero"></path>
+                <g id="编组-13" transform="translate(25.700000, 19.000000)" fill="#FFFFFF">
+                    <path d="M27.125,28 L0.875,28 C0.391125,28 0,27.6871 0,27.3 C0,26.9129 0.391125,26.6 0.875,26.6 L27.125,26.6 C27.608875,26.6 28,26.9129 28,27.3 C28,27.6871 27.608875,28 27.125,28" id="Fill-29"></path>
+                    <path d="M23.4769231,22.9894737 L4.52307692,22.9894737 C3.21612308,22.9894737 2.15384615,21.8992421 2.15384615,20.5578947 L2.15384615,17.9052632 L25.8461538,17.9052632 L25.8461538,20.5578947 C25.8461538,21.8992421 24.7838769,22.9894737 23.4769231,22.9894737 M4.52307692,2.21052632 L23.4769231,2.21052632 C24.7838769,2.21052632 25.8461538,3.30075789 25.8461538,4.64210526 L25.8461538,16.1368421 L2.15384615,16.1368421 L2.15384615,4.64210526 C2.15384615,3.30075789 3.21612308,2.21052632 4.52307692,2.21052632 M23.4769231,0 L4.52307692,0 C2.02892308,0 0,2.08231579 0,4.64210526 L0,20.5578947 C0,23.1176842 2.02892308,25.2 4.52307692,25.2 L23.4769231,25.2 C25.9710769,25.2 28,23.1176842 28,20.5578947 L28,4.64210526 C28,2.08231579 25.9710769,0 23.4769231,0" id="Fill-31"></path>
+                    <path d="M15.4,21 C15.4,21.7728 14.7728,22.4 14,22.4 C13.2272,22.4 12.6,21.7728 12.6,21 C12.6,20.2272 13.2272,19.6 14,19.6 C14.7728,19.6 15.4,20.2272 15.4,21" id="Fill-33"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

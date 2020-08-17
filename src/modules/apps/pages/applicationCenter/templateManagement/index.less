@@ -1,0 +1,119 @@
+.main{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  .ts-middle-part {
+    @ts-middle-part();
+  }
+  .ts-body-part {
+    @ts-body-part();
+    .main-content{
+      margin-top: 16px;
+      /deep/ .el-row{
+        margin-left:0!important;
+        margin-right: 0!important;
+        .el-col{
+          padding-bottom: 20px;
+          padding-right: 16px;
+          &:nth-child(4n){
+            padding-right: 0;
+          }
+        }
+      }
+      .card-wrapper{
+        border-radius: 14px;
+        .service-wrap{
+          display: flex;
+          padding: 24px 0 0 24px;
+          cursor: pointer;
+          height: 176px;
+          position: relative;
+
+          /deep/.el-avatar--circle{
+            //border:1px solid rgba(216,222,233,1);
+            background: #FFFFFF;
+          }
+          /deep/.el-avatar{
+            border: 0;
+          }
+          .item{
+            &.right{
+              padding-left: 16px;
+              span{
+                font-size: 16px;
+                font-weight: 500;
+                color:rgba(25,34,59,1);
+                line-height: 24px;
+                display: inline-block;
+                margin-bottom: 40px;
+              }
+              .remarks{
+                padding-right: 16px;
+                line-height: 20px;
+              }
+              .step{
+                color: #19BCA1;
+              }
+            }
+
+          }
+          .status-c {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 58px;
+            height: 58px;
+            & > img {
+              width: 100%;
+            }
+            .text {
+              position: absolute;
+              top: 0;
+              right: 0;
+              width: 42px;
+              height: 42px;
+              @flex();
+              justify-content: center;
+              & > span {
+                transform: rotate(45deg);
+                font-size: 12px;
+              }
+            }
+          }
+
+        }
+        .footer {
+          margin: 0 16px;
+          height: 52px;
+          border-top: 1px solid #d8dee9;
+          .footer-content {
+            height: 100%;
+            @flex();
+            justify-content: center;
+            .item{
+              flex: 1;
+              text-align: center;
+              cursor: pointer;
+              .svg-icon {
+                font-size: 20px;
+              }
+              /deep/ .el-button--text{
+                color:#332A7C;;
+
+              }
+
+              &:first-child{
+                border-right: 1px solid #d8dee9;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .ts-page-block {
+      @ts-pagination-reset-base();
+    }
+  }
+}
+
